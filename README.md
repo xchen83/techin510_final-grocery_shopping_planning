@@ -17,7 +17,7 @@ their grocery shopping. Several techniques we learnt from the course will be app
 3. AI Generated Receipe
     - To provide user a cooking inspiration to avoid food waste
 
-# How to Run
+## How to Run
 - python -m venv venv
 - source venv/bin/activate
 - pip install -r requirements.txt
