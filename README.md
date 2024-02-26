@@ -23,3 +23,6 @@ their grocery shopping. Several techniques we learnt from the course will be app
     - source venv/bin/activate
     - pip install -r requirements.txt
     - streamlit run app.py
+
+# Reflection
+Revise Later...
