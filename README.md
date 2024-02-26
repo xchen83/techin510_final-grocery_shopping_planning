@@ -16,3 +16,9 @@ their grocery shopping. Several techniques we learnt from the course will be app
     - Incorporating a grocery shopping list for users to keep track of the items
 3. AI Generated Receipe
     - To provide user a cooking inspiration to avoid food waste
+
+# How to Run
+- python -m venv venv
+- source venv/bin/activate
+- pip install -r requirements.txt
+- streamlit run app.py
