@@ -9,13 +9,18 @@ enhanced planning and utilization of their purchased items.
 
 # Technologies & Methodologies
 The application will be designed to assist users in more effectively planning
-their grocery shopping. Several techniques we learnt from the course will be applied:
-1. Web Crawling from Walmart and Storing the Data into Postgres Database
+their grocery shopping. Several techniques I learnt from the course will be applied on the following pags:
+1. 🛒 Fresh Food on Walmart.com
+    - Web Crawling from Walmart and Storing the Data into Postgres Database
     - To obtain the real time price and foods for users to plan grocery shopping
-2. Data Storage with Python
+    - Using API to crawl the data
+2. 📝 Grocery Planning List
+    - Data Storage with into local SQLite database
     - Incorporating a grocery shopping list for users to keep track of the items
-3. AI Generated Receipe
-    - To provide user a cooking inspiration to avoid food waste
+3. 🍎 Items in Your Fridge
+    - Extended the toggle function from the grocery list to allow users keep track of what items are in their fridge
+4. 🏦 Purchasing Insights
+    - Data visualization using altair to provide purchasing insights for users to save money
 
 # How to Run
 ## 1. Installing the following
@@ -26,4 +31,6 @@ their grocery shopping. Several techniques we learnt from the course will be app
     - streamlit run app.py
 
 # Reflection
-Revise Later...
+Overall, the most difficult part was scraping information from the website of a major grocery company. There were significant limitations based on authorization. Consequently, I discovered a free API that allowed me to access data from Walmart.com.
+
+Another challenge I encountered was attempting to incorporate the database I retrieved from the website into the shopping list app. However, because the search function from the database is not supported by the BaseModel, achieving this functionality became too difficult. As a result, I opted to allow users to manually input items instead.
