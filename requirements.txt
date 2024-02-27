@@ -1,0 +1,12 @@
+streamlit-pydantic
+pydantic==1.10.14
+psycopg2-binary==2.9.9
+requests
+python-dotenv
+streamlit-folium
+sqlalchemy
+pandas
+openai
+llama-index
+nltk
+matplotlib

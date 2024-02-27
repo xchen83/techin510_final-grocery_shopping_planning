@@ -10,7 +10,7 @@ enhanced planning and utilization of their purchased items.
 # Technologies & Methodologies
 The application will be designed to assist users in more effectively planning
 their grocery shopping. Several techniques we learnt from the course will be applied:
-1. Web Crawling from Trader Joes and Storing the Data into Postgres Database
+1. Web Crawling from Walmart and Storing the Data into Postgres Database
     - To obtain the real time price and foods for users to plan grocery shopping
 2. Data Storage with Python
     - Incorporating a grocery shopping list for users to keep track of the items
@@ -22,6 +22,7 @@ their grocery shopping. Several techniques we learnt from the course will be app
     - python -m venv venv
     - source venv/bin/activate
     - pip install -r requirements.txt
+## 2. Usage
     - streamlit run app.py
 
 # Reflection
