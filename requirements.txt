@@ -6,7 +6,3 @@ python-dotenv
 streamlit-folium
 sqlalchemy
 pandas
-openai
-llama-index
-nltk
-matplotlib
