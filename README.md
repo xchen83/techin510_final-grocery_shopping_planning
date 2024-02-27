@@ -31,6 +31,10 @@ their grocery shopping. Several techniques I learnt from the course will be appl
     - streamlit run app.py
 
 # Reflection
-Overall, the most difficult part was scraping information from the website of a major grocery company. There were significant limitations based on authorization. Consequently, I discovered a free API that allowed me to access data from Walmart.com.
+1. What you learned
+    - During the coding process, I attempted to utilize the SQLite database I had established for the Grocery Planning List page on the Track Inventory page to enhance efficiency. However, I discovered that the SQLite database could not be shared across different pages, prompting me to create a new database for inventory management.
+    
+2. What questions/problems did you face?
+    - Overall, the most difficult part was scraping information from the website of a major grocery company. There were significant limitations based on authorization. Consequently, I discovered a free API that allowed me to access data from Walmart.com.
 
-Another challenge I encountered was attempting to incorporate the database I retrieved from the website into the shopping list app. However, because the search function from the database is not supported by the BaseModel, achieving this functionality became too difficult. As a result, I opted to allow users to manually input items instead.
+    - Another challenge I encountered was attempting to incorporate the database I retrieved from the website into the shopping list app. However, because the search function from the database is not supported by the BaseModel, achieving this functionality became too difficult. As a result, I opted to allow users to manually input items instead.
