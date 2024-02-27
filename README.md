@@ -17,8 +17,8 @@ their grocery shopping. Several techniques I learnt from the course will be appl
 2. 📝 Grocery Planning List
     - Data Storage with into local SQLite database
     - Incorporating a grocery shopping list for users to keep track of the items
-3. 🍎 Items in Your Fridge
-    - Extended the toggle function from the grocery list to allow users keep track of what items are in their fridge
+3. 📦 Track Fridge Inventory
+    - Used streamlit to create a form to allow users keep track of fridge inventory and the food items expiration date
 4. 🏦 Purchasing Insights
     - Data visualization using altair to provide purchasing insights for users to save money
 

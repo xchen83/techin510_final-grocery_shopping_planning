@@ -1,7 +1,8 @@
 import streamlit as st
 from products import display_products
 from todo import todo_list
-from fridge import fridge_items
+from inventory import track_inventory
+
 import pandas as pd
 import altair as alt
 
@@ -17,12 +18,12 @@ sidebar, main = st.columns([1, 3], gap="medium")
 pages = {
     "🛒 Fresh Food on Walmart.com": "Fresh Food on Walmart.com",
     "📝 Grocery Planning List": "Grocery Planning List",
-    "🍎 Items in Your Fridge": "Items in Your Fridge",
+    "📦 Track Fridge Inventory": "Track Fridge Inventory",
     "🏦 Purchasing Insights": "Purchasing Insights"
 }
 
 # Sidebar for navigation
-st.sidebar.title("Welcome Back")
+st.sidebar.title("Welcome Back!")
 selection = st.sidebar.radio("", list(pages.keys()))
 
 # Display the database table on the Grocery Planning List page
@@ -36,11 +37,10 @@ elif selection == "📝 Grocery Planning List":
     st.markdown("#### Add your food items in the list")
     todo_list()
 
-elif selection == "🍎 Items in Your Fridge":
-    st.title("🍎 Items in Your Fridge")
-    st.markdown("#### Have you consumed any of the items in your fridge?")
-    st.write("Click the checkbox to the consumed item")
-    fridge_items()
+elif selection == "📦 Track Fridge Inventory":
+    st.title("📦 Track Fridge Inventory")
+    st.markdown("#### Add new item to your fridge inventory")
+    track_inventory()
 
 
 elif selection == "🏦 Purchasing Insights":
