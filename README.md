@@ -1,7 +1,7 @@
 # Fresh Foods on Walmart.com - Grocery Planning App
 
 ## A single sentence to impress me about your project
-A grocery planning app with clear UI, aiming to reducing the food waste and helping individuals to better plan their grocery shopping.
+A grocery planning app with clear UI, aiming to reduce the food waste and help individuals to plan their grocery shopping.
 
 # Introduction (What problems trying to solve)
 For my final project, I aim to develop an application dedicated to addressing
