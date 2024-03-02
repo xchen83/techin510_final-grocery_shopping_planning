@@ -1,4 +1,10 @@
-# Introduction
+# Project Name:
+## Fresh Foods on Walmart.com - Grocery Planning App
+
+# A single sentence to impress me about your project
+A grocery planning app with clear UI, aiming to reducing the food waste and helping individuals to better plan their grocery shopping.
+
+# Introduction (What problems trying to solve)
 For my final project, I aim to develop an application dedicated to addressing
 the issue of global food waste within individual households. The United Nations
 reports that 50% of all fruits and vegetables produced worldwide are wasted
