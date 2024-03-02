@@ -1,5 +1,4 @@
-# Project Name:
-## Fresh Foods on Walmart.com - Grocery Planning App
+# Project Name: Fresh Foods on Walmart.com - Grocery Planning App
 
 # A single sentence to impress me about your project
 A grocery planning app with clear UI, aiming to reducing the food waste and helping individuals to better plan their grocery shopping.
